@@ -1,5 +1,5 @@
-#FROM dockerhub.hi.inet/dcip/minimal:7
-FROM centos7:latest
+FROM dockerhub.hi.inet/dcip/minimal:7
+#FROM centos7:latest
 
 # Installing basic package
 RUN curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
