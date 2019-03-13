@@ -10,6 +10,8 @@ RUN yum -y install bind-utils which libffi-devel python-pip python-virtualenv py
 
 RUN yum -y install git && yum clean all
 
+RUN useradd -ms /bin/bash jenkins 
+
 RUN sudo gpasswd -a jenkins docker
 
 RUN sudo gpasswd -a contint docker
