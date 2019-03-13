@@ -15,5 +15,3 @@ RUN useradd -ms /bin/bash jenkins
 RUN sudo gpasswd -a jenkins docker
 
 RUN sudo gpasswd -a contint docker
-
-RUN sudo gpasswd -a cloud-user docker
